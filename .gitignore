@@ -1,0 +1,19 @@
+# Dados Pessoais e Financeiros Reais
+user_state.json
+user_state.json.tmp
+backups/
+*.xlsx
+*.tmp
+
+# Chaves de API e Segredos
+.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Caches e Compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.vscode/
+.idea/

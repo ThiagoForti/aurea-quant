@@ -1,0 +1,69 @@
+{
+  "orcamento": {
+    "receitas": [
+      { "nome": "Salário Líquido Mensal", "valor": 12000.0, "categoria": "Trabalho CLT/PJ" },
+      { "nome": "Proventos & Dividendos B3", "valor": 1500.0, "categoria": "Renda Passiva" },
+      { "nome": "Consultorias & Renda Extra", "valor": 1200.0, "categoria": "Serviços" }
+    ],
+    "gastos_fixos": [
+      { "nome": "Aluguel & Condomínio", "valor": 3200.0, "categoria": "Moradia", "categoria_cfp": "Essencial (50%)" },
+      { "nome": "Plano de Saúde Familiar", "valor": 650.0, "categoria": "Saúde", "categoria_cfp": "Essencial (50%)" },
+      { "nome": "Energia, Água e Internet Fibra", "valor": 550.0, "categoria": "Utilidades", "categoria_cfp": "Essencial (50%)" },
+      { "nome": "Seguro Auto & IPVA parcelado", "valor": 350.0, "categoria": "Transporte", "categoria_cfp": "Essencial (50%)" }
+    ],
+    "gastos_variaveis": [
+      { "nome": "Alimentação & Supermercado", "valor": 1800.0, "categoria": "Alimentação", "categoria_cfp": "Essencial (50%)" },
+      { "nome": "Lazer, Restaurantes e Delivery", "valor": 1200.0, "categoria": "Lazer", "categoria_cfp": "Estilo de Vida (30%)" },
+      { "nome": "Combustível & Transporte App", "valor": 600.0, "categoria": "Transporte", "categoria_cfp": "Essencial (50%)" },
+      { "nome": "Assinaturas & Educação Continuada", "valor": 400.0, "categoria": "Educação", "categoria_cfp": "Estilo de Vida (30%)" }
+    ],
+    "despesas_anuais": [
+      { "nome": "IPVA & Licenciamento", "valor_anual": 2400.0, "vencimento": "Janeiro/Fevereiro" },
+      { "nome": "Seguro Auto Renovação", "valor_anual": 1800.0, "vencimento": "Maio" },
+      { "nome": "IPTU & Taxas Municipais", "valor_anual": 1200.0, "vencimento": "Março" }
+    ]
+  },
+  "renda_fixa": [
+    {
+      "nome": "Caixinha Nubank - Reserva de Emergência",
+      "tipo": "Reserva de Emergência",
+      "valor_aplicado": 50000.0,
+      "saldo_atual": 52400.0,
+      "taxa_cdi": 100.0,
+      "dias_corridos": 365
+    },
+    {
+      "nome": "Caixinha Nubank - Caixa de Oportunidade",
+      "tipo": "Investimento/Caixa",
+      "valor_aplicado": 15000.0,
+      "saldo_atual": 15850.0,
+      "taxa_cdi": 100.0,
+      "dias_corridos": 240
+    },
+    {
+      "nome": "Tesouro Selic 2029",
+      "tipo": "Investimento/Caixa",
+      "valor_aplicado": 20000.0,
+      "saldo_atual": 21300.0,
+      "taxa_cdi": 100.0,
+      "dias_corridos": 450
+    }
+  ],
+  "renda_variavel": [
+    { "ticker": "BBAS3", "classe": "Ações", "quantidade": 400, "preco_medio": 25.50, "peso_alvo": 15.0 },
+    { "ticker": "ITUB4", "classe": "Ações", "quantidade": 600, "preco_medio": 31.00, "peso_alvo": 15.0 },
+    { "ticker": "TAEE11", "classe": "Ações", "quantidade": 500, "preco_medio": 34.20, "peso_alvo": 15.0 },
+    { "ticker": "EGIE3", "classe": "Ações", "quantidade": 300, "preco_medio": 41.00, "peso_alvo": 10.0 },
+    { "ticker": "WEGE3", "classe": "Ações", "quantidade": 250, "preco_medio": 46.50, "peso_alvo": 15.0 },
+    { "ticker": "HGLG11", "classe": "FIIs", "quantidade": 120, "preco_medio": 158.00, "peso_alvo": 15.0 },
+    { "ticker": "KNCR11", "classe": "FIIs", "quantidade": 200, "preco_medio": 101.50, "peso_alvo": 10.0 },
+    { "ticker": "IVVB11", "classe": "ETFs", "quantidade": 30, "preco_medio": 310.00, "peso_alvo": 5.0 }
+  ],
+  "historico_patrimonial_mensal": [],
+  "prejuizo_acumulado_acoes_etfs": 0.0,
+  "prejuizo_acumulado_fiis": 0.0,
+  "configuracoes": {
+    "alerta_rsi_limite": 30.0,
+    "meta_meses_reserva": 6
+  }
+}

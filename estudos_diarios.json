@@ -1,0 +1,427 @@
+{
+  "estudos_diarios": [
+    {
+      "dia": 1,
+      "titulo": "A Diferença Vital Entre 'Preço' e 'Valor' na Bolsa",
+      "autor": "Benjamin Graham & Warren Buffett",
+      "categoria": "Análise Fundamentalista",
+      "tempo_leitura": "4 min",
+      "resumo": "Preço é o que você paga na tela do home broker; Valor é o que a empresa realmente entrega em patrimônio, geração de caixa e lucros recorrentes.",
+      "texto_completo": "Benjamin Graham, pai da análise fundamentalista e mentor de Warren Buffett, estabeleceu a regra de ouro: 'O mercado de ações no curto prazo funciona como uma máquina de votar (medindo a popularidade e a emoção passageira das pessoas), mas no longo prazo funciona como uma balança (pesando a substância real dos lucros e do patrimônio da empresa)'.\n\nQuando você compra uma ação de uma empresa como o Banco do Brasil (BBAS3) ou a transmissora Taesa (TAEE11), você não está comprando um bilhete de loteria que sobe ou desce. Você está comprando uma fatia de um negócio real que tem agências, torres de transmissão de energia, contratos de 30 anos e clientes pagantes. Se a cotação cair 5% na semana por ruídos políticos de Brasília, o valor intrínseco da empresa não diminuiu 5%. Ao contrário: as pessoas continuam ligando o interruptor de luz e pagando juros nos bancos. Comprar barato em relação ao valor intrínseco é o que Graham chamava de **Margem de Segurança**.",
+      "licao_pratica": "Nunca avalie a saúde do seu investimento apenas pela oscilação da cotação na tela. Avalie se o lucro líquido da empresa e os dividendos continuam consistentes.",
+      "link": "https://www.infomoney.com.br/guias/analise-fundamentalista/"
+    },
+    {
+      "dia": 2,
+      "titulo": "O Método do Preço Teto de Décio Bazin: Garantia de Proventos",
+      "autor": "Décio Bazin (Faça Fortuna com Ações)",
+      "categoria": "Método de Valuation",
+      "tempo_leitura": "4 min",
+      "resumo": "Aprenda a calcular o valor máximo que você pode pagar em uma ação para garantir pelo menos 6% ao ano em dividendos livres de imposto.",
+      "texto_completo": "Em seu clássico livro 'Faça Fortuna com Ações Antes que Seja Tarde' (1992), o investidor Décio Bazin propôs uma regra matemática infalível para o investidor de dividendos nunca pagar caro por uma ação:\n\n$$\\text{Preço Teto} = \\frac{\\text{Dividendo Médio Anual por Ação}}{0,06}$$\n\nPor que 6%? Historicamente, 6% ao ano é o retorno real que títulos de Renda Fixa de longo prazo (como o Tesouro IPCA+) pagam acima da inflação. Portanto, para valer a pena se tornar sócio de uma empresa na bolsa, os dividendos líquidos devem render no mínimo 6% sobre o seu capital investido.\n\n• **Exemplo:** Se a Taesa (TAEE11) paga uma média de R\\$ 2,40 de dividendos por ano:\n$$\\text{Preço Teto} = \\frac{2,40}{0,06} = \\text{R\\$ 40,00}$$\nSe a cotação estiver em R\\$ 34,00, a ação está com desconto de proventos (seu yield projetado será de 7,05% ao ano). Se a cotação subir para R\\$ 45,00, o dividendo cai para 5,3% ao ano e ela entra em zona de 'Não Comprar'.",
+      "licao_pratica": "Sempre confira a coluna 'Preço Teto Bazin' no Terminal antes de aportar. Se a cotação estiver abaixo do teto, você garante dividendos superiores ao custo de oportunidade.",
+      "link": "https://www.infomoney.com.br/guias/dividend-yield/"
+    },
+    {
+      "dia": 3,
+      "titulo": "RSI / IFR de 14 Períodos: O Termômetro de Pânico e Ganância",
+      "autor": "J. Welles Wilder Jr.",
+      "categoria": "Análise Técnica & Timing",
+      "tempo_leitura": "5 min",
+      "resumo": "O Índice de Força Relativa mede a velocidade e a magnitude dos movimentos de preço de 0 a 100 para apontar sobrecompra ou sobrevenda.",
+      "texto_completo": "O RSI (Relative Strength Index) foi desenvolvido para responder a uma pergunta prática: o preço deste ativo caiu rápido demais por pânico, ou subiu rápido demais por euforia?\n\nA fórmula analisa os últimos 14 pregões:\n$$RS = \\frac{\\text{Média dos Ganhos}}{\\text{Média das Perdas}} \\quad \\longrightarrow \\quad RSI = 100 - \\left( \\frac{100}{1 + RS} \\right)$$\n\n• **RSI < 30 (Sobrevenda):** O mercado vendeu em desespero. Para ações defensivas e lucrativas (BESST), quando o RSI bate 30 ou 35, frequentemente representa uma janela de assimetria de compra altamente lucrativa.\n• **RSI > 70 (Sobrecompra):** Euforia generalizada. O preço esticou demais e o risco de correção para baixo é elevado.",
+      "licao_pratica": "Use o RSI como um filtro de timing: nunca compre ativos que estejam com RSI acima de 70. Quando ativos de alta qualidade atingirem RSI <= 30, estude antecipar aportes.",
+      "link": "https://www.infomoney.com.br/guias/analise-tecnica/"
+    },
+    {
+      "dia": 4,
+      "titulo": "A Fórmula de Benjamin Graham: O Preço Justo Intrínseco",
+      "autor": "Benjamin Graham (O Investidor Inteligente)",
+      "categoria": "Método de Valuation",
+      "tempo_leitura": "5 min",
+      "resumo": "Como descobrir matematicamente se o preço de tela da ação está abaixo do valor físico e contábil dos seus lucros e patrimônio.",
+      "texto_completo": "No livro seminal 'Security Analysis' e 'O Investidor Inteligente', Benjamin Graham formalizou a fórmula mais respeitada de precificação de valor:\n\n$$\\text{Preço Justo (Valor Intrínseco)} = \\sqrt{22,5 \\times \\text{LPA} \\times \\text{VPA}}$$\n\nOnde:\n• **LPA (Lucro por Ação):** É o lucro líquido que a empresa gerou nos últimos 12 meses dividido pelo número de ações.\n• **VPA (Valor Patrimonial por Ação):** É o patrimônio líquido da empresa (prédios, caixa, equipamentos, subestações) dividido pelas ações.\n• **O número 22,5:** Representa o produto dos múltiplos máximos conservadores aceitos por Graham (um P/L de até 15 vezes multiplicado por um P/VP de até 1,5 vez: 15 × 1,5 = 22,5).\n\n**Trava Matemática:** Se a empresa der prejuízo (LPA negativo) ou estiver com patrimônio negativo (VPA negativo), a fórmula é matematicamente inválida (não existe raiz quadrada de número negativo). Nosso sistema trava automaticamente empresas deficitárias para proteger o seu capital.",
+      "licao_pratica": "Se o Preço de Graham for R\\$ 30,00 e a ação custar R\\$ 20,00, você possui 50% de margem de proteção patrimonial.",
+      "link": "https://www.infomoney.com.br/guias/como-investir-em-acoes/"
+    },
+    {
+      "dia": 5,
+      "titulo": "O Efeito Bola de Neve: O que é o 'Número Mágico'?",
+      "autor": "B3 Educação & Engenharia Financeira",
+      "categoria": "Juros Compostos",
+      "tempo_leitura": "4 min",
+      "resumo": "A quantidade exata de cotas para que os proventos comprem 1 nova cota todo mês sem você colocar 1 centavo a mais do seu bolso.",
+      "texto_completo": "O maior objetivo de quem investe em Renda Variável com foco em renda passiva é atingir o **Ponto de Inflexão Autônoma**, conhecido popularmente como **Magic Number**.\n\n$$\\text{Magic Number} = \\left\\lceil \\frac{\\text{Cotação Atual}}{\\text{Dividendo Mensal por Cota}} \\right\\rceil$$\n\n• **Exemplo:** Se uma cota de Fundo Imobiliário custa R\\$ 100,00 e distribui R\\$ 1,00 por mês em rendimentos isentos, seu Magic Number é exatamente **100 cotas**.\nCom 100 cotas, você recebe R\\$ 100,00 por mês. No primeiro mês, esses R\\$ 100 compram a cota nº 101. No mês seguinte, você terá 101 cotas gerando R\\$ 101,00, comprando a cota nº 102. A partir desse instante, a carteira vira uma máquina de reinvestimento contínuo, independente do seu salário.",
+      "licao_pratica": "Acompanhe na aba Radar a barra de progresso do Magic Number de cada ativo da sua carteira e concentre seus aportes no ativo mais próximo da meta.",
+      "link": "https://www.infomoney.com.br/guias/fundos-imobiliarios/"
+    },
+    {
+      "dia": 6,
+      "titulo": "Setores BESST: O Escudo Anti-Crise da Bolsa Brasileira",
+      "autor": "Luiz Barsi Filho (Maior Investidor Individual da B3)",
+      "categoria": "Construção de Carteira",
+      "tempo_leitura": "4 min",
+      "resumo": "A sigla BESST reúne os 5 setores mais seguros, previsíveis e resistentes a crises da bolsa brasileira: Bancos, Energia, Saneamento, Seguros e Telecom.",
+      "texto_completo": "Luiz Barsi Filho construiu um patrimônio bilionário na bolsa ao longo de mais de 50 anos focando exclusivamente em empresas de setores essenciais. Ele criou a sigla **BESST**:\n\n1. **B - Bancos:** Intermediação financeira e crédito com alta rentabilidade (ROE > 18%) e proteção regulatória do Banco Central.\n2. **E - Energia Elétrica:** Especialmente empresas transmissoras e geradoras, que operam via contratos de concessão de 30 anos com receita indexada à inflação (IPCA ou IGPM).\n3. **S - Saneamento:** Monopólios naturais de fornecimento de água e tratamento de esgoto. Ninguém corta o consumo de água na crise.\n4. **S - Seguros:** As seguradoras recebem o prêmio adiantado do cliente e aplicam esse dinheiro em títulos públicos pagando taxa Selic (o chamado 'float financeiro'). Quando os juros sobem, o lucro delas explode.\n5. **T - Telecomunicações:** Telefonia móvel e fibra ótica se tornaram itens de utilidade pública básica.",
+      "licao_pratica": "Para quem está migrando da Renda Fixa, investir 80% a 90% da parcela de ações nos setores BESST garante sono tranquilo e baixa volatilidade nos lucros.",
+      "link": "https://www.infomoney.com.br/guias/fundos-imobiliarios-fiis/"
+    },
+    {
+      "dia": 7,
+      "titulo": "Transição Segura: Saindo da Renda Fixa Sem Medo de Oscilação",
+      "autor": "Howard Marks (O Mais Importante para o Investidor)",
+      "categoria": "Psicologia do Investidor",
+      "tempo_leitura": "4 min",
+      "resumo": "Por que a volatilidade diária de tela da corretora não significa prejuízo patrimonial se a empresa continuar lucrando.",
+      "texto_completo": "Howard Marks, fundador da Oaktree Capital, cunhou uma das maiores lições das finanças modernas: 'Volatilidade não é risco. O verdadeiro risco de perda permanente só acontece se você comprar um ativo ruim que quebra ou se vender no fundo do poço por pânico'.\n\nNa Renda Fixa (Nubank Caixinha ou Tesouro Selic), o número na tela sobe de forma linear todo dia útil. Você nunca vê seu saldo recuar. Quando você compra ações, o preço oscila minuto a minuto como numa feira livre. Se você comprou uma casa de aluguel por R\\$ 500 mil e no dia seguinte um vizinho oferece R\\$ 450 mil, você aceitaria a oferta no susto? Obviamente não: a casa continua em pé e o inquilino continua pagando o aluguel.\n\nNas ações é a mesma coisa: os dividendos que caem na sua conta bancária vêm do lucro do negócio, e não do humor dos negociadores de tela da B3.",
+      "licao_pratica": "Comemore as quedas de preço em empresas de balanço forte: elas permitem que você compre mais cotas gastando menos dinheiro, aumentando seu fluxo futuro de dividendos.",
+      "link": "https://www.infomoney.com.br/guias/renda-fixa/"
+    },
+    {
+      "dia": 8,
+      "titulo": "Dívida Líquida / EBITDA: O Semáforo de Risco da Empresa",
+      "autor": "Auditoria de Balanços Fundamentalistas",
+      "categoria": "Segurança de Balanço",
+      "tempo_leitura": "4 min",
+      "resumo": "Mede em quantos anos a empresa pagaria 100% das suas dívidas usando a sua geração operacional de caixa.",
+      "texto_completo": "O indicador **Dívida Líquida / EBITDA** é a métrica mais crucial de sobrevivência corporativa:\n\n$$\\text{Dívida Líquida} = \\text{Dívidas Bancárias Totais} - \\text{Caixa Disponível}$$\n$$\\text{Alavancagem} = \\frac{\\text{Dívida Líquida}}{\\text{EBITDA (Caixa Operacional)}}$$\n\n• **Abaixo de 1,5x:** Balanço Fortaleza. A empresa opera com folga financeira extraordinária.\n• **Entre 1,5x e 2,5x:** Nível perfeitamente saudável, típico de empresas elétricas e concessões de saneamento que possuem receitas previsíveis.\n• **Acima de 3,5x:** Alerta vermelho. Com a Selic alta, os juros da dívida consomem todo o lucro operacional da empresa, forçando o cancelamento de dividendos ou até risco de insolvência.",
+      "licao_pratica": "Nosso Terminal filtra automaticamente empresas com Dívida/EBITDA excessiva, impedindo recomendações em papéis com risco de asfixia financeira.",
+      "link": "https://www.infomoney.com.br/guias/taxa-selic/"
+    },
+    {
+      "dia": 9,
+      "titulo": "ROE (Retorno sobre Patrimônio Líquido): A Eficiência do Capital",
+      "autor": "Charlie Munger & Warren Buffett",
+      "categoria": "Segurança de Balanço",
+      "tempo_leitura": "4 min",
+      "resumo": "Indica quantos reais de lucro a empresa produz para cada R\\$ 100 de patrimônio dos seus sócios acionistas.",
+      "texto_completo": "Charlie Munger dizia: 'No longo prazo, o retorno financeiro de uma ação raramente supera a rentabilidade do próprio negócio (o seu ROE)'.\n\n$$\\text{ROE} = \\frac{\\text{Lucro Líquido}}{\\text{Patrimônio Líquido Contábil}} \\times 100\\%$$\n\n• Se uma empresa possui ROE de 20% (como Itaú ou Weg), ela rentabiliza o capital a taxas superiores à taxa Selic e à inflação combinadas.\n• Se uma empresa possui ROE de 4%, ela está rendendo menos do que uma aplicação de poupança ou CDB de liquidez diária, destruindo valor para os seus acionistas.",
+      "licao_pratica": "Priorize empresas com ROE sustentável superior a 15% ao ano. Empresas com alto ROE conseguem aumentar dividendos sem precisar se endividar.",
+      "link": "https://www.suno.com.br/artigos/roe/"
+    },
+    {
+      "dia": 10,
+      "titulo": "Liquidez Corrente: A Empresa Consegue Pagar as Contas de Amanhã?",
+      "autor": "Auditoria de Balanços Fundamentalistas",
+      "categoria": "Segurança de Balanço",
+      "tempo_leitura": "3 min",
+      "resumo": "Compara os direitos e dinheiro que a empresa tem para receber nos próximos 12 meses contra todas as dívidas que vencem nesse mesmo período.",
+      "texto_completo": "$$\\text{Liquidez Corrente} = \\frac{\\text{Ativo Circulante (Disponibilidades e Contas a Receber)}}{\\text{Passivo Circulante (Contas a Pagar em até 1 ano)}}$$\n\n• **Acima de 1,5x:** Caixa abundante. Para cada R\\$ 1,00 de conta a pagar no ano, a empresa tem R\\$ 1,50 em caixa para cobrir.\n• **Abaixo de 1,0x:** Alerta de estresse financeiro de curto prazo. A empresa depende de refinanciar dívidas com bancos para não atrasar pagamentos.",
+      "licao_pratica": "Verifique no Raio-X do Balanço da aba Radar se a Liquidez Corrente está acima de 1.2x ou 1.5x antes de alocar fatias pesadas do seu aporte.",
+      "link": "https://investidor10.com.br/conteudo/liquidez-corrente/"
+    },
+    {
+      "dia": 11,
+      "titulo": "A Regra de Ouro dos R$ 20.000 de Isenção em Vendas de Ações",
+      "autor": "Receita Federal do Brasil (Art. 3º Lei 11.033/2004)",
+      "categoria": "Inteligência Fiscal & IR",
+      "tempo_leitura": "4 min",
+      "resumo": "Vendas de ações de até R\\$ 20.000,00 no mês são 100% isentas de Imposto de Renda sobre o lucro auferido na modalidade normal (Swing Trade).",
+      "texto_completo": "A legislação tributária brasileira confere um benefício extraordinário aos pequenos e médios investidores de ações:\n\n1. **Isenção de R\\$ 20.000/mês:** Se a SOMA de todas as vendas de ações que você realizou no mês for menor ou igual a R\\$ 20.000,00, todo o lucro que você teve nessa operação é **LIVRE de Imposto de Renda**.\n2. **Acima de R\\$ 20.000:** Se você vender R\\$ 20.000,01, o lucro TOTAL daquele mês passa a ser tributado à alíquota de 15% via DARF código 6015.\n3. **Atenção Máxima:** Essa isenção vale EXCLUSIVAMENTE para ações em Swing Trade (operações em dias diferentes). Ela NÃO se aplica a Fundos Imobiliários (FIIs), NÃO se aplica a ETFs e NÃO se aplica a Day Trade.",
+      "licao_pratica": "Use o 'Simulador Fiscal de Venda' na aba 'Minha Carteira' antes de vender qualquer posição para garantir que você não ultrapasse os R\\$ 20.000 sem necessidade.",
+      "link": "https://www.infomoney.com.br/guias/declarar-acoes-imposto-de-renda/"
+    },
+    {
+      "dia": 12,
+      "titulo": "Sazonalidade de Proventos: Como Montar um 'Salário Mensal' na Bolsa",
+      "autor": "Análise Quantitativa B3",
+      "categoria": "Renda Passiva",
+      "tempo_leitura": "4 min",
+      "resumo": "Empresas da bolsa não pagam todo mês como os FIIs, mas combinando 4 ou 5 ações com calendários complementares, você recebe proventos todos os meses.",
+      "texto_completo": "Diferente dos Fundos Imobiliários que distribuem aluguel mensalmente, a maioria das empresas de ações distribui proventos em meses específicos do ano:\n\n• **Banco do Brasil (BBAS3):** Paga 8 vezes ao ano (geralmente março, maio, junho, agosto, setembro, novembro e dezembro).\n• **Taesa (TAEE11):** Tradicionalmente distribui em maio, agosto, novembro e dezembro.\n• **Sanepar (SAPR11):** Distribui em junho e dezembro.\n• **Itaú (ITUB4):** Paga dividendos mensais mínimos e complementa com dividendos trimestrais e anuais pesados em março e agosto.\n\nAo planejar sua carteira com o calendário de sazonalidade do Terminal, você equilibra o fluxo financeiro ao longo dos 12 meses.",
+      "licao_pratica": "Consulte a grade 6x2 na aba Radar para ver quais meses do ano sua carteira recebe mais e menos proventos, alinhando suas despesas orçamentárias.",
+      "link": "https://statusinvest.com.br/acoes/proventos"
+    },
+    {
+      "dia": 13,
+      "titulo": "Margem Líquida: Por Que Empresas com Margens Altas Sobrevivem",
+      "autor": "Análise Fundamentalista",
+      "categoria": "Segurança de Balanço",
+      "tempo_leitura": "3 min",
+      "resumo": "Mede a porcentagem de cada real vendido que sobra líquido no bolso dos acionistas após descontar todos os custos, despesas operacionais e impostos.",
+      "texto_completo": "$$\\text{Margem Líquida} = \\frac{\\text{Lucro Líquido}}{\\text{Receita Líquida Total}} \\times 100\\%$$\n\n• **Margem Acima de 20%:** Elevadíssimo poder de precificação (Moat). Transmissoras de energia têm margens frequentemente acima de 40%.\n• **Margem Abaixo de 5%:** Negócios de alta fragilidade (como supermercados ou varejo de eletrodomésticos). Se a inflação ou o custo de frete subir 2%, a empresa entra no prejuízo.",
+      "licao_pratica": "Priorize empresas com margens líquidas gordas e confortáveis. Elas conseguem repassar a inflação nos preços sem perder seus clientes.",
+      "link": "https://investidor10.com.br/conteudo/margem-liquida/"
+    },
+    {
+      "dia": 14,
+      "titulo": "A Reserva de Emergência: O Escudo Protetor do Investidor",
+      "autor": "Planejamento Financeiro CFP",
+      "categoria": "Orçamento e Planejamento",
+      "tempo_leitura": "4 min",
+      "resumo": "A regra dos 6 meses de gastos fixos em Renda Fixa de resgate imediato para nunca ser forçado a vender ações ou FIIs na baixa.",
+      "texto_completo": "A maior causa de prejuízo de pessoas físicas na bolsa não é a análise de balanços errada; é a falta de reserva de emergência!\n\nSe o carro quebra, o cachorro adoece ou você perde o emprego e não tem dinheiro na Renda Fixa com liquidez diária, você será obrigado a resgatar suas ações da bolsa. Se a bolsa estiver em queda naquele mês por causa de alguma crise internacional, você venderá suas ações no pior momento possível, transformando uma queda temporária de cotação em um prejuízo irreversível.\n\n**Regra do Terminal:** A Reserva de Emergência (6 meses de gastos fixos em CDB 100% CDI do Nubank ou Tesouro Selic) não entra nos cálculos de risco de bolsa.",
+      "licao_pratica": "Confira na aba Cockpit a métrica 'Fôlego da Reserva'. Ela deve apontar no mínimo 6,0 meses antes de você expandir seus aportes em Renda Variável.",
+      "link": "https://www.infomoney.com.br/guias/reserva-de-emergencia/"
+    },
+    {
+      "dia": 15,
+      "titulo": "A Regra 50/30/20 de Orçamento Pessoal Saudável",
+      "autor": "Elizabeth Warren (All Your Worth)",
+      "categoria": "Orçamento e Planejamento",
+      "tempo_leitura": "4 min",
+      "resumo": "O método consagrado de divisão da receita líquida mensal: até 50% em Gastos Fixos, até 30% em Variáveis e pelo menos 20% em Aportes.",
+      "texto_completo": "Criada pela professora de Harvard Elizabeth Warren, a regra 50/30/20 é o padrão ouro de finanças pessoais adotado pela CFP (Certified Financial Planner):\n\n• **50% Gastos Fixos e Essenciais:** Moradia, condomínio, contas de água, luz, internet, supermercado básico e transporte.\n• **30% Gastos Variáveis e Estilo de Vida:** Lazer, restaurantes, passeios, assinaturas e conforto pessoal.\n• **20% Futuro Financeiro (Aportes):** Poupança dedicada a construir independência financeira e aposentadoria autônoma.\n\nSe você conseguir poupar mais de 30% ou 40% da sua renda, o tempo necessário para você atingir a independência financeira diminui exponencialmente.",
+      "licao_pratica": "Na aba 'Meu Orçamento', o gráfico Waterfall e os cartões de diagnóstico mostram em tempo real a divisão exata dos seus percentuais de fluxo de caixa.",
+      "link": "https://www.infomoney.com.br/guias/planejamento-financeiro/"
+    },
+    {
+      "dia": 16,
+      "titulo": "Tesouro Direto: A Base Mais Segura da Economia Brasileira",
+      "autor": "Secretaria do Tesouro Nacional (STN)",
+      "categoria": "Renda Fixa",
+      "tempo_leitura": "4 min",
+      "resumo": "Como funcionam os títulos públicos do governo federal e a diferença entre Tesouro Selic, Tesouro IPCA+ e Prefixados.",
+      "texto_completo": "Os títulos do Tesouro Direto representam o risco soberano do país, sendo a aplicação financeira mais segura de todo o sistema bancário brasileiro:\n\n1. **Tesouro Selic:** Paga 100% da taxa Selic diária com liquidez imediata. É o ativo ideal para a Reserva de Emergência e Caixa de Oportunidade.\n2. **Tesouro IPCA+:** Paga a inflação oficial medida pelo IBGE acrescida de uma taxa de juros real fixa (ex: IPCA + 6,5% ao ano). É o melhor instrumento para aposentadoria de longo prazo.\n3. **Tesouro Prefixado:** Trava uma taxa anual definitiva (ex: 12% ao ano). Apresenta volatilidade de marcação a mercado se resgatado antes do vencimento.",
+      "licao_pratica": "Para objetivos de até 2 anos, utilize títulos indexados à Selic/CDI. Para objetivos acima de 5 anos, títulos atrelados ao IPCA garantem ganho de poder de compra real.",
+      "link": "https://www.tesourodireto.com.br/titulos/tipos-de-tesouro.htm"
+    },
+    {
+      "dia": 17,
+      "titulo": "O que é o CDI e Por Que Ele é o Benchmark do Brasil",
+      "autor": "B3 e Banco Central do Brasil",
+      "categoria": "Renda Fixa & Macroeconomia",
+      "tempo_leitura": "3 min",
+      "resumo": "O Certificado de Depósito Interbancário reflete a taxa que os bancos cobram para emprestar dinheiro entre si por 1 dia, andando colado à Selic.",
+      "texto_completo": "Por determinação do Banco Central, nenhum banco pode fechar o dia com caixa negativo. Os bancos que têm sobras de dinheiro emprestam para os que precisam, e a média dessas operações diárias forma a **Taxa DI (CDI)**.\n\nO CDI anda aproximadamente 0,10 ponto percentual abaixo da Taxa Selic Meta. Quando um investimento como a Caixinha do Nubank promete '100% do CDI', significa que você recebe exatamente essa taxa oficial da B3.\n\nNo Terminal, calculamos o **CDI Líquido**, deduzindo a alíquota de Imposto de Renda (tabela regressiva) para comparar o rendimento líquido da renda fixa com o dividendo isento das ações e FIIs.",
+      "licao_pratica": "Confira na barra Bloomberg do topo do Terminal o valor do CDI Líquido em tempo real. Ele é o patamar mínimo que suas ações e FIIs devem superar.",
+      "link": "https://www.infomoney.com.br/guias/cdi/"
+    },
+    {
+      "dia": 18,
+      "titulo": "IPCA e Inflação: O Imposto Invisível que Destrói o Poder de Compra",
+      "autor": "IBGE - Instituto Brasileiro de Geografia e Estatística",
+      "categoria": "Macroeconomia",
+      "tempo_leitura": "4 min",
+      "resumo": "O Índice Nacional de Preços ao Consumidor Amplo mede a cesta de consumo das famílias e indica quanto seu dinheiro perde de poder ao longo dos meses.",
+      "texto_completo": "Se o seu dinheiro render 10% no ano, mas a inflação (IPCA) for de 6%, o seu ganho de compra real não foi de 10%, foi de apenas:\n\n$$\\text{Ganho Real} = \\frac{1 + 0,10}{1 + 0,06} - 1 = +3,77\\%$$\n\nDeixar dinheiro parado na conta corrente ou na caderneta de poupança (que frequentemente perde para a inflação) é a forma mais garantida de ficar mais pobre a cada ano. Empresas sólidas da bolsa repassam a inflação automaticamente em seus contratos (concessionárias de energia e saneamento reajustam suas tarifas anualmente pelo IPCA ou IGPM).",
+      "licao_pratica": "Bons ativos de Renda Variável são escudos naturais contra a inflação, pois seus lucros e dividendos crescem junto com o aumento geral de preços da economia.",
+      "link": "https://www.infomoney.com.br/guias/ipca/"
+    },
+    {
+      "dia": 19,
+      "titulo": "O Poder dos Juros Compostos: A 8ª Maravilha do Mundo",
+      "autor": "Albert Einstein & Teoria Financeira",
+      "categoria": "Juros Compostos",
+      "tempo_leitura": "4 min",
+      "resumo": "Como o reinvestimento contínuo dos dividendos faz a curva de patrimônio sair da lentidão inicial e disparar exponencialmente.",
+      "texto_completo": "$$M = C \\times (1 + i)^t$$\n\nO fator exponencial $(t)$ é o tempo. Nos primeiros 3 ou 5 anos de investimentos, a sensação de quem aporta é de lentidão: quase todo o saldo da carteira veio do próprio salário aportado e os proventos parecem pequenos.\n\nPorém, entre o 7º e o 10º ano, a mágica dos juros sobre juros começa a aparecer: o valor dos dividendos mensais passa a ser maior do que o seu próprio aporte do salário! A partir desse momento, a curva se inclina para cima em formato de taco de hóquei, gerando independência financeira acelerada.",
+      "licao_pratica": "Veja no gráfico do 'Simulador FIRE' na aba Radar a comparação entre 'Apenas Meu Dinheiro Aportado' vs 'Patrimônio com Juros Compostos'. A diferença após 10 anos é colossal.",
+      "link": "https://www.infomoney.com.br/guias/juros-compostos/"
+    },
+    {
+      "dia": 20,
+      "titulo": "FIIs de Tijolo vs FIIs de Papel: Como Blindar sua Carteira",
+      "autor": "Análise Imobiliária B3",
+      "categoria": "Fundos Imobiliários",
+      "tempo_leitura": "4 min",
+      "resumo": "Entenda as diferenças cruciais entre ser dono de imóveis reais (galpões e shoppings) e ser dono de certificados de crédito imobiliário (CRIs).",
+      "texto_completo": "1. **FIIs de Tijolo (Imóveis Reais):** São donos de galpões logísticos classe A (onde o Mercado Livre e a Amazon estocam produtos) ou shoppings centers líderes. Os contratos de aluguel são corrigidos anualmente pela inflação e o imóvel físico se valoriza no longo prazo.\n2. **FIIs de Papel (Recebíveis Imobiliários / CRIs):** Não possuem tijolo nem concreto. Eles compram títulos de dívida imobiliária que pagam CDI + taxa ou IPCA + taxa. Em épocas de juros altos (Selic elevada), os FIIs de papel pagam dividendos mensais altíssimos.\n\n**Equilíbrio:** A melhor carteira combina FIIs de tijolo de alta qualidade com FIIs de papel de baixo risco de crédito (High Grade).",
+      "licao_pratica": "Nunca compre FIIs de papel 'High Yield' arriscados que pagam 16% ao ano se o risco de calote for alto. Priorize FIIs consolidados com histórico impecável.",
+      "link": "https://investidor10.com.br/conteudo/regra-50-30-20/"
+    },
+    {
+      "dia": 21,
+      "titulo": "O Caminho Rumo à Independência Financeira (Movimento FIRE)",
+      "autor": "Vicki Robin (Dinheiro e Vida) & Metodologia FIRE",
+      "categoria": "Independência Financeira",
+      "tempo_leitura": "4 min",
+      "resumo": "Descubra como calcular o número exato do seu patrimônio de liberdade pela Regra dos 4% / 6%.",
+      "texto_completo": "O movimento FIRE (Financial Independence, Retire Early) estabeleceu o cálculo para você saber quando atingiu a liberdade de escolha:\n\n$$\\text{Patrimônio de Liberdade} = \\frac{\\text{Gasto Total Anual}}{0,06}$$\n\nSe o seu custo de vida completo (gastos fixos + variáveis) for de R\\$ 5.000,00 por mês, seu custo anual é de R\\$ 60.000,00. Dividindo R\\$ 60.000 por 0,06, você precisa acumular **R\\$ 1.000.000,00**. A uma taxa de retirada segura de 6% ao ano, esse patrimônio gerará exatamente os R\\$ 60.000 por ano sem nunca diminuir o capital principal.",
+      "licao_pratica": "Monitore seu percentual de progresso rumo à meta FIRE na aba Radar e veja quantos anos faltam para sua renda passiva bancar 100% dos seus boletos.",
+      "link": "https://investidor10.com.br/conteudo/independencia-financeira/"
+    },
+    {
+      "dia": 22,
+      "titulo": "O Mercado de Ações na B3: O que Significa ser Sócio",
+      "autor": "B3 - Brasil, Bolsa, Balcão",
+      "categoria": "Mercado B3",
+      "tempo_leitura": "4 min",
+      "resumo": "Uma ação é a menor fração do capital social de uma empresa aberta registrada na Comissão de Valores Mobiliários (CVM).",
+      "texto_completo": "Quando você compra ações ordinárias (ON - final 3) ou preferenciais (PN - final 4) na B3, você adquire os mesmos direitos econômicos de participação nos lucros que os grandes controladores da empresa possuem.\n\nA B3 é uma das bolsas de valores mais seguras e reguladas do planeta, com sistema de custódia centralizada onde todos os ativos ficam registrados no seu CPF pessoal. Mesmo se a sua corretora falir, suas ações continuam 100% intactas no seu nome na B3, bastando transferir a custódia para outro banco.",
+      "licao_pratica": "Invista com a mentalidade de sócio de longo prazo: você não torce para a ação subir amanhã, você torce para a empresa faturar mais, lucrar mais e distribuir proventos.",
+      "link": "https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/acoes.htm"
+    },
+    {
+      "dia": 23,
+      "titulo": "Fundos Imobiliários na B3: Aluguel Mensal com Isenção de IR",
+      "autor": "B3 - Brasil, Bolsa, Balcão",
+      "categoria": "Fundos Imobiliários",
+      "tempo_leitura": "4 min",
+      "resumo": "Como funcionam os condomínios fechados de investidores que compram grandes imóveis e distribuem no mínimo 95% do lucro em proventos mensais.",
+      "texto_completo": "Por força da Lei 8.668/1993, os Fundos Imobiliários no Brasil são obrigados a distribuir pelo menos 95% do resultado financeiro apurado a cada semestre. Na prática, praticamente todos os FIIs pagam esses rendimentos todos os meses diretamente na sua conta corrente da corretora.\n\nO benefício principal: para pessoas físicas que possuam menos de 10% das cotas, os rendimentos mensais são **100% isentos de Imposto de Renda**! É como ter dezenas de apartamentos e galpões alugados sem precisar pagar 27,5% de carnê-leão e sem dor de cabeça com inquilinos.",
+      "licao_pratica": "Acompanhe na aba Radar a comparação do Dividend Yield dos FIIs contra o CDI Líquido do Nubank para alocar sempre onde o retorno for mais vantajoso.",
+      "link": "https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/fundos-de-investimento-imobiliario-fii.htm"
+    },
+    {
+      "dia": 24,
+      "titulo": "O Copom e a Selic: Como o Banco Central Movimenta a Bolsa",
+      "autor": "Banco Central do Brasil (Bacen)",
+      "categoria": "Política Monetária",
+      "tempo_leitura": "4 min",
+      "resumo": "O Comitê de Política Monetária reúne-se a cada 45 dias para definir a taxa básica de juros que dita o custo do dinheiro em toda a economia.",
+      "texto_completo": "A Taxa Selic funciona como a gravidade do mercado financeiro:\n\n• **Quando a Selic sobe:** A renda fixa fica mais atrativa e o custo de crédito para as empresas encarece. Empresas muito endividadas sofrem, mas bancos e seguradoras faturam mais com juros de empréstimos e float de tesouraria.\n• **Quando a Selic cai:** O custo de capital diminui, as pessoas consomem mais e as ações da bolsa sobem de preço de forma expressiva.\n\nNosso Terminal consulta automaticamente os dados oficiais do SGS do Banco Central a cada atualização para recalcular as taxas de referência da sua carteira.",
+      "licao_pratica": "Compre boas ações de dividendos nos períodos de Selic alta: o mercado fica desanimado com a bolsa, abrindo os maiores descontos da década em empresas excelentes.",
+      "link": "https://www.bcb.gov.br/estabilidadefinanceira/historicocpom"
+    },
+    {
+      "dia": 25,
+      "titulo": "A Calculadora do Cidadão: Simulando Correções e Aplicações",
+      "autor": "Banco Central do Brasil",
+      "categoria": "Ferramentas Oficiais",
+      "tempo_leitura": "3 min",
+      "resumo": "A ferramenta pública do Banco Central para corrigir valores pela Selic, IPCA, CDI e calcular financiamentos com transparência absoluta.",
+      "texto_completo": "A Calculadora do Cidadão do Banco Central é uma ferramenta pública e gratuita que permite:\n1. Corrigir valores passados pela inflação do IPCA.\n2. Atualizar dívidas ou saldos pelo CDI e pela Selic diária oficial.\n3. Simular o valor futuro de uma aplicação financeira mensal com juros compostos.\n\nÉ a mesma base matemática utilizada nos motores quantitativos do nosso Terminal para apurar os dados macroeconômicos em tempo real.",
+      "licao_pratica": "Use ferramentas oficiais para checar taxas e evitar cair em promessas milagrosas de rentabilidade garantida acima de 2% ao mês.",
+      "link": "https://www3.bcb.gov.br/CALCIDADAO/jsp/index.jsp"
+    },
+    {
+      "dia": 26,
+      "titulo": "Tributação em Renda Variável: Evitando Multas com a Receita",
+      "autor": "Receita Federal do Brasil",
+      "categoria": "Inteligência Fiscal & IR",
+      "tempo_leitura": "4 min",
+      "resumo": "Como funciona o recolhimento mensal de IR na bolsa, a apuração de prejuízos e o recolhimento via DARF até o último dia útil do mês seguinte.",
+      "texto_completo": "No Brasil, o Imposto de Renda sobre ganho de capital na bolsa de valores é de apuração **mensal e responsabilidade exclusiva do próprio investidor**:\n\n• **Venda de Ações no mês > R\\$ 20.000:** Alíquota de 15% sobre o lucro líquido (código DARF 6015).\n• **Venda de FIIs com lucro:** Alíquota de 20% sobre o ganho de capital (sem isenção de 20k).\n• **Day Trade:** 20% sobre o lucro líquido para qualquer ativo.\n• **Prazo de Pagamento:** Até o último dia útil do mês seguinte à venda.\n• **Regra dos R\\$ 10,00:** DARF com valor inferior a R\\$ 10,00 não pode ser emitido no banco; você deve guardar o valor e somar no mês que atingir R\\$ 10,00.",
+      "licao_pratica": "Se você teve prejuízo em um mês, você NÃO joga esse prejuízo fora! Ele fica registrado para abater lucros tributáveis de meses futuros na mesma classe.",
+      "link": "https://www.gov.br/receitafederal/pt-br"
+    },
+    {
+      "dia": 27,
+      "titulo": "Tesouro IPCA+: O Único Ativo que Garante Aposentadoria Real",
+      "autor": "Secretaria do Tesouro Nacional",
+      "categoria": "Renda Fixa",
+      "tempo_leitura": "4 min",
+      "resumo": "Por que o Tesouro IPCA+ com juros reais acima de 6% blinda o seu futuro contra qualquer risco de hiperinflação ou desvalorização cambial.",
+      "texto_completo": "Não importa se a inflação no Brasil for de 3%, 10% ou 50% ao ano: o Tesouro IPCA+ paga a variação do IPCA daquele período MAIS a taxa contratada (por exemplo, IPCA + 6,5% ao ano).\n\nIsso significa que o seu poder de compra de cestas básicas, combustíveis e aluguéis é matematicamente protegido pelo governo federal. É o investimento mais conservador e recomendado do país para quem quer garantir uma aposentadoria com renda real garantida.",
+      "licao_pratica": "Mantenha sempre uma fatia do seu patrimônio conservador atrelada ao Tesouro IPCA+ de longo prazo como alicerce protetor da carteira.",
+      "link": "https://www.tesourodireto.com.br/titulos/precos-e-taxas.htm"
+    },
+    {
+      "dia": 28,
+      "titulo": "RSI / IFR em Detalhes: A Teoria Clássica de Welles Wilder",
+      "autor": "J. Welles Wilder Jr. (New Concepts in Technical Trading)",
+      "categoria": "Análise Técnica & Timing",
+      "tempo_leitura": "4 min",
+      "resumo": "Aprofundando os conceitos do oscilador de momentum: suportes, resistências e convergências técnicas no mercado de ações.",
+      "texto_completo": "Criado em 1978, o RSI rapidamente se tornou o indicador mais utilizado do mundo pelos grandes fundos quantitativos. A grande sacada de Wilder foi transformar variações de preço ilimitadas em um índice fechado e padronizado entre 0 e 100.\n\nQuando um papel atinge sobrevenda severa (RSI < 25), quase todos os investidores pessimistas já venderam suas cotas. Com pouca pressão vendedora restante, qualquer fluxo comprador faz a cotação disparar em recuperação técnica ('repique').",
+      "licao_pratica": "No Terminal, o Scanner de Oportunidades filtra papéis em sobrevenda para você não precisar ficar olhando gráficos o dia todo.",
+      "link": "https://www.investopedia.com/terms/r/rsi.asp"
+    },
+    {
+      "dia": 29,
+      "titulo": "O Poder do Dollar Cost Averaging (Aporte Mensal Constante)",
+      "autor": "Teoria Quantitativa de Carteiras",
+      "categoria": "Execução e Disciplina",
+      "tempo_leitura": "4 min",
+      "resumo": "Investir todo mês o mesmo valor fixo é a estratégia mais simples e eficiente do mundo para bater 90% dos traders profissionais.",
+      "texto_completo": "A estratégia do DCA (Dollar Cost Averaging) funciona assim: em vez de tentar adivinhar quando a bolsa está no topo ou no fundo, você investe religiosamente a sua sobra de dinheiro todo mês no dia do pagamento.\n\n• Quando o mercado está em queda (barato), o seu aporte de R\\$ 1.000 compra **100 cotas** a R\\$ 10.\n• Quando o mercado está em alta (caro), esse mesmo aporte de R\\$ 1.000 compra apenas **50 cotas** a R\\$ 20.\n\nAutomaticamente, você compra muito mais cotas no fundo e menos cotas no topo, reduzindo seu preço médio sem estresse mental.",
+      "licao_pratica": "A constância mensal bate a genialidade de curto prazo. Seja constante nos aportes todos os meses.",
+      "link": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp"
+    },
+    {
+      "dia": 30,
+      "titulo": "Alavancagem Financeira: Por Que Menos Dívida Significa Mais Paz",
+      "autor": "Nassim Nicholas Taleb (Antifrágil)",
+      "categoria": "Segurança de Balanço",
+      "tempo_leitura": "4 min",
+      "resumo": "Empresas com pouca dívida são antifrágeis: elas sobrevivem a pandemias, crises e juros altos enquanto seus concorrentes endividados quebram.",
+      "texto_completo": "Nassim Taleb escreveu: 'A dívida é a mãe de todas as fragilidades financeiras'.\n\nUma empresa sem dívida pode passar por 3 anos de recessão profunda que ela não vai à falência: ela simplesmente segura custos e espera a tempestade passar. Já uma empresa alavancada (com dívidas de 4x o seu EBITDA) tem boletos milionários vencendo todo mês no banco. Se a taxa de juros subir ou a receita cair 10%, ela entra em recuperação judicial.\n\nNosso filtro anti-risco prioriza companhias com balanço desendividado para você ter a mesma segurança de um depósito bancário.",
+      "licao_pratica": "Durma em paz: invista em negócios sólidos e com dívida líquida controlada.",
+      "link": "https://www.investopedia.com/terms/l/leverage.asp"
+    },
+    {
+      "dia": 31,
+      "titulo": "O Verdadeiro Significado da Liberdade Financeira",
+      "autor": "Antigravity Quant Philosophy",
+      "categoria": "Filosofia de Vida",
+      "tempo_leitura": "4 min",
+      "resumo": "Liberdade financeira não é consumir mais; é ter soberania sobre o seu próprio tempo para viver com paz de espírito.",
+      "texto_completo": "Muitas pessoas confundem ser rico com gastar muito. Mas a verdadeira riqueza é aquilo que você não vê: é a tranquilidade de saber que se você quiser tirar 6 meses de férias, cuidar da sua família, mudar de profissão ou dizer 'não' a um chefe abusivo, você tem renda passiva suficiente caindo na sua conta.\n\nCada cota de ação ou fundo imobiliário que você acumula com disciplina todo mês compra minutos e horas da sua liberdade futura. Você começou essa jornada saindo da inércia da Renda Fixa tradicional e agora possui método, cálculos e inteligência patrimonial ao seu dispor. Parabéns pela disciplina!",
+      "licao_pratica": "Mantenha o foco no plano de longo prazo. A independência financeira é uma construção paciente de tijolo por tijolo.",
+      "link": "https://www.b3.com.br/pt_br/"
+    }
+  ],
+  "glossario": [
+    {
+      "id": "graham",
+      "titulo": "📐 Metodologia 1: Preço Justo de Benjamin Graham",
+      "analogia": "Avaliação Patrimonial de Imóvel com Desconto",
+      "resumo_curto": "Descobre o valor intrínseco multiplicando os lucros pelo patrimônio líquido por ação.",
+      "explicacao": "Benjamin Graham (o maior professor de Warren Buffett) estabeleceu uma fórmula matemática para calcular o valor real de uma ação:\n\n$$\\text{Preço Justo} = \\sqrt{22,5 \\times \\text{LPA} \\times \\text{VPA}}$$\n\n### Significado de cada Variável:\n• **LPA (Lucro por Ação):** É o dinheiro líquido que a empresa de fato gerou dividido por cada ação existente no mercado.\n• **VPA (Valor Patrimonial por Ação):** É o patrimônio líquido da empresa (prédios, caixas, máquinas, subestações) dividido pelas ações.\n• **O Fator 22,5:** Graham estipulava que um investidor conservador nunca deveria pagar mais que 15x o Lucro (P/L <= 15) nem mais que 1,5x o Patrimônio (P/VP <= 1,5). Multiplicando esses dois limites máximos: $15 \times 1,5 = 22,5$.\n\n### Margem de Segurança de Graham:\n$$\\text{Margem de Graham (\\%)} = \\left( \\frac{\\text{Preço Justo}}{\\text{Cotação Atual}} - 1 \\right) \\times 100\\%$$\n\n• **Exemplo Prático (Banco do Brasil - BBAS3):**\nSe LPA = R\\$ 5,80 e VPA = R\\$ 34,00:\n$$\\text{Preço Justo} = \\sqrt{22,5 \\times 5,80 \\times 34,00} = \\sqrt{4.437} = \\text{R\\$ 66,61}$$\nSe a cotação estiver em R\\$ 26,00, a Margem de Segurança é de **+156%**! Você está pagando uma fração ínfima do valor patrimonial real da empresa.\n\n### Trava Matemática Anti-Erro do Sistema:\nSe a empresa der prejuízo (LPA < 0) ou patrimônio for negativo (VPA < 0), a fórmula é automaticamente travada pelo sistema para evitar distorções ou números imaginários. O Terminal só calcula Graham para empresas lucrativas.",
+      "como_usar": "Olhe a coluna 'Graham' na aba Radar. Cotação abaixo do preço Graham indica sinal verde de compra com margem de segurança patrimonial."
+    },
+    {
+      "id": "bazin",
+      "titulo": "🎯 Metodologia 2: Preço Teto de Décio Bazin (Garantia de Dividendos)",
+      "analogia": "O Aluguel Mínimo Aceitável de um Imóvel",
+      "resumo_curto": "Define o preço máximo a pagar para garantir no mínimo 6% ao ano em dividendos livres de impostos.",
+      "explicacao": "Criado por Décio Bazin no livro 'Faça Fortuna com Ações', este método garante que você nunca pagará caro por um fluxo de renda passiva:\n\n$$\\text{Preço Teto} = \\frac{\\text{Dividendo Anual Médio em Reais}}{0,06}$$\n\n### Por que a taxa de 6% (0,06)?\nHistoricamente, 6% ao ano livre de impostos é a rentabilidade real de longo prazo que títulos públicos (Tesouro IPCA+) entregam. Se uma ação da bolsa pagar menos de 6% de yield sobre o preço que você pagou, não compensa correr o risco de renda variável.\n\n### Margem de Segurança de Bazin:\n$$\\text{Margem de Bazin (\\%)} = \\left( \\frac{\\text{Preço Teto}}{\\text{Cotação Atual}} - 1 \\right) \\times 100\\%$$\n\n• **Exemplo Prático (Taesa - TAEE11):**\nSe a Taesa paga em média R\\$ 2,40 por cota ao ano:\n$$\\text{Preço Teto} = \\frac{\\text{R\\$ 2,40}}{0,06} = \\text{R\\$ 40,00}$$\n• Cotação a R\\$ 34,00: **Abaixo do teto (Compra Recomendada)**, Yield projetado de 7,05% ao ano.\n• Cotação a R\\$ 44,00: **Acima do teto (Não Comprar)**, Yield cai para 5,45% ao ano.\n\n### Filtro Anti-Armadilha do Terminal:\nO Terminal calcula o yield com média de pagamentos para não considerar lucros esporádicos (venda de prédios) que inflacionam o dividendo por apenas 1 mês.",
+      "como_usar": "Acompanhe a coluna 'Teto Bazin' no Radar. Se a cotação estiver abaixo do teto, a empresa entrega retorno em dividendos superior ao custo de oportunidade."
+    },
+    {
+      "id": "rsi",
+      "titulo": "🚨 Metodologia 3: RSI / IFR de 14 Períodos (Timing Quantitativo)",
+      "analogia": "O Elástico Esticado ou o Termômetro de Febre",
+      "resumo_curto": "Mede a força e a velocidade das quedas e altas nos últimos 14 pregões em uma escala de 0 a 100.",
+      "explicacao": "O Índice de Força Relativa (Welles Wilder, 1978) mede a velocidade com que o mercado movimentou o preço nos últimos 14 pregões:\n\n$$RS = \\frac{\\text{Média dos Ganhos nos dias de Alta}}{\\text{Média das Perdas nos dias de Baixa}}$$\n$$RSI = 100 - \\left( \\frac{100}{1 + RS} \\right)$$\n\n### As Faixas de Decisão do Terminal:\n• **RSI <= 30 (Sobrevenda Geral):** Pânico vendedor severo. O elástico esticou demais para baixo. Ótima assimetria.\n• **RSI <= 35 (Sobrevenda para Ações Defensivas BESST):** Empresas como Itaú ou Taesa dificilmente chegam a 30 porque grandes fundos compram antes. Portanto, para papéis defensivos, RSI <= 35 já é nível de oportunidade rara.\n• **RSI entre 40 e 60:** Zona neutra de equilíbrio normal de mercado.\n• **RSI >= 70 (Sobrecompra):** Euforia e ganância. Quase todo mundo já comprou, risco elevado de realização de lucros.",
+      "como_usar": "O Scanner do Terminal lista automaticamente ativos em sobrevenda com RSI < 30 ou < 35, alertando momentos de Black Friday na bolsa."
+    },
+    {
+      "id": "triade",
+      "titulo": "🛡️ Metodologia 4: A Tríade de Recomendação de Compra (Filtro Anti-Risco)",
+      "analogia": "O Banquinho de 3 Pernas (Equilíbrio Completo)",
+      "resumo_curto": "Score ponderado de 0 a 100 avaliando Preço (35%), Projeção (35%) e Segurança de Balanço (30%).",
+      "explicacao": "Para proteger quem está saindo da Renda Fixa e não quer se expor a empresas perigosas ou FIIs podres, nosso algoritmo calcula:\n\n$$\\text{Score Triplo} = (35\\% \\times \\text{Preço}) + (35\\% \\times \\text{Projeção}) + (30\\% \\times \\text{Segurança})$$\n\n### Os 3 Pilares Auditados:\n1. **Preço (35%):** Desconto em relação ao Preço Graham, margem de segurança sobre o Teto Bazin e múltiplos P/VP e P/L atrativos.\n2. **Projeção (35%):** Dividend Yield anual sustentável superior ao CDI Líquido do Nubank e previsibilidade de fluxo de caixa.\n3. **Segurança (30%):** Dívida Líquida / EBITDA < 2,5x, ROE > 12%, Liquidez Corrente > 1,2x e operação em setores perenes (BESST e FIIs High Grade).",
+      "como_usar": "Na aba 'Radar de Oportunidades', consulte a tabela 'Top Melhores Compras'. Ela ordena as melhores entradas do mercado segundo essa tríade."
+    },
+    {
+      "id": "balanco",
+      "titulo": "🏥 Metodologia 5: Score de Higidez Financeira do Balanço",
+      "analogia": "O Check-up Médico Completo da Empresa",
+      "resumo_curto": "Audita endividamento, liquidez de caixa, margem de lucro e eficiência do capital em notas de 0 a 100.",
+      "explicacao": "Antes de recomendar qualquer ativo, o Terminal analisa 4 sinais vitais do balanço patrimonial:\n\n• **Dívida Líquida / EBITDA (Peso Máximo):** Mede em quantos anos a empresa quitaria todas as dívidas com o caixa operacional. Ideal: menor que 2,0x. Acima de 3,5x perde muitos pontos.\n• **Liquidez Corrente:** Capacidade de honrar contas nos próximos 12 meses. Ideal: maior que 1,5x.\n• **ROE (Retorno sobre Patrimônio):** Mede a eficiência do capital dos sócios. Ideal: acima de 15% ao ano.\n• **Margem Líquida:** Percentual da receita que vira lucro líquido. Ideal: acima de 15% ou 20%.\n\n**Bancos e FIIs:** Instituições financeiras não usam Dívida/EBITDA (operam alavancadas por natureza e são fiscalizadas pelo Índice de Basileia do Bacen).",
+      "como_usar": "Acesse o 'Raio-X Fundamentalista' na aba Radar para ver os pontos fortes e de atenção de qualquer ação ou FII da sua carteira."
+    },
+    {
+      "id": "rebal_macro",
+      "titulo": "🎯 Metodologia 6: Rebalanceamento por Macroclasses em 2 Níveis",
+      "analogia": "A Balança Inteligente do Novo Aporte",
+      "resumo_curto": "Direciona a sobra mensal para a classe deficitária sem vender nenhum ativo e convertendo em cotas inteiras.",
+      "explicacao": "Muitos investidores erram ao vender as ações que subiram para equilibrar a carteira, gerando impostos e custos desnecessários. Nosso motor aplica o **Rebalanceamento por Aporte Novo** em dois níveis:\n\n### Nível 1: Verba por Macroclasse\nO sistema compara o patrimônio atual em Renda Fixa, Ações, FIIs e ETFs contra as suas Metas Alvo (ex: 70% RF / 20% Ações / 10% FIIs) e destina o dinheiro do mês exclusivamente para as classes que estão para trás.\n\n### Nível 2: Compra em Cotas Inteiras\nDentro da classe contemplada, o sistema divide a verba entre os ativos de maior déficit e converte em cotas inteiras (divisão inteira `//`), mantendo os centavos residuais na Renda Fixa para o mês seguinte.",
+      "como_usar": "Na aba 'Minha Carteira', use o 'Preset Transição Conservadora (70% RF / 20% Ações / 10% FIIs)' para rebalancear sua carteira sem estresse."
+    },
+    {
+      "id": "fiscal_darf",
+      "titulo": "⚖️ Metodologia 7: Inteligência Fiscal & Simulador de Venda (DARF / Isenções)",
+      "analogia": "O Planejador Tributário no Bolso",
+      "resumo_curto": "Calcula automaticamente a regra dos R\\$ 20.000 em ações, os 20% fixos de FIIs e a trava da DARF mínima de R\\$ 10.",
+      "explicacao": "A tributação de investimentos em renda variável na B3 segue regras estritas da Receita Federal:\n\n1. **Ações (Swing Trade):** Vendas totais de ações no mês <= R\\$ 20.000,00 são **100% ISENTAS de IR** (Art. 3º Lei 11.033/04). Se ultrapassar R\\$ 20.000,00, a alíquota é de 15% sobre o ganho líquido.\n2. **Fundos Imobiliários (FIIs):** **Não têm isenção de 20k!** Toda venda com lucro paga 20% de IR via DARF.\n3. **Day Trade:** 20% sobre o ganho líquido em qualquer ativo, sem isenção de 20k.\n4. **Trava da DARF Mínima:** DARF inferior a R\\$ 10,00 não pode ser paga no banco e deve ser acumulada para os meses seguintes (Lei 9.430/96).\n5. **Prejuízos Acumulados:** Podem ser compensados integralmente com lucros futuros na mesma classe e modalidade.",
+      "como_usar": "Antes de realizar qualquer venda na sua corretora, preencha o 'Simulador Fiscal' na aba Carteira para saber exatamente se haverá imposto a recolher."
+    },
+    {
+      "id": "snowball",
+      "titulo": "❄️ Metodologia 8: Efeito Bola de Neve & O Número Mágico",
+      "analogia": "A Fábrica que Constrói a Própria Fábrica",
+      "resumo_curto": "Calcula a quantidade de cotas necessárias para que os proventos comprem 1 nova cota sozinho todo mês.",
+      "explicacao": "$$\\text{Magic Number} = \\left\\lceil \\frac{\\text{Cotação}}{\\text{Dividendo Mensal por Cota}} \\right\\rceil$$\n\n• **Exemplo:** Cota de FII custa R\\$ 100,00 e paga R\\$ 1,00/mês. Seu Magic Number é de **100 cotas**.\n• Ao atingir 100 cotas, você passa a receber R\\$ 100 todo mês, comprando 1 nova cota sem gastar 1 centavo do seu salário. No mês seguinte, você terá 101 cotas. Depois 102, 103... Os juros compostos entram em piloto automático.",
+      "como_usar": "Acompanhe na aba Radar o progresso em direção ao Número Mágico de cada ativo da sua carteira."
+    },
+    {
+      "id": "cfp_orc",
+      "titulo": "💰 Metodologia 9: Planejamento Orçamentário CFP (Regra 50/30/20)",
+      "analogia": "O Tanque de Combustível dos Seus Aportes",
+      "resumo_curto": "Organiza o fluxo financeiro em Gastos Fixos (50%), Variáveis (30%) e Aportes (20%).",
+      "explicacao": "A base de qualquer investidor de sucesso é a sua capacidade de poupança mensal:\n\n• **Até 50% em Gastos Fixos:** Moradia, contas de consumo, supermercado essencial e saúde.\n• **Até 30% em Gastos Variáveis:** Lazer, viagens, restaurantes e estilo de vida.\n• **No mínimo 20% em Aportes:** Sobra direta para investir na Renda Fixa e na Bolsa B3.\n\nSe a sua taxa de poupança for superior a 30% ou 40%, seu prazo para a independência financeira cai pela metade.",
+      "como_usar": "Use a aba 'Meu Orçamento' para registrar suas entradas e saídas. O sistema calcula automaticamente sua sobra real para investir."
+    },
+    {
+      "id": "cdi_liq",
+      "titulo": "💳 Metodologia 10: CDI Líquido da Caixinha Nubank vs Tabela Regressiva",
+      "analogia": "A Régua Mínima de Comparação",
+      "resumo_curto": "Calcula o rendimento da Renda Fixa com desconto do Imposto de Renda regressivo para comparar com a bolsa.",
+      "explicacao": "Diferente dos dividendos de ações e FIIs (que são isentos de IR na conta corrente), o rendimento da Renda Fixa sofre desconto de Imposto de Renda pela tabela regressiva:\n\n• **Até 180 dias:** Alíquota de 22,5% de IR.\n• **De 181 a 360 dias:** Alíquota de 20,0% de IR.\n• **De 361 a 720 dias:** Alíquota de 17,5% de IR.\n• **Acima de 720 dias:** Alíquota de 15,0% de IR (patamar mínimo de longo prazo).\n\n### Cálculo do CDI Líquido de Longo Prazo:\n$$\\text{CDI Líquido} = \\text{CDI Bruto} \\times (1 - 0,15)$$\n\nCom um CDI Bruto de 13,65% ao ano, o CDI Líquido de longo prazo é de **11,60% ao ano**. Essa é a taxa líquida real que o investidor ganha na Caixinha do Nubank e que usamos como referência para exigir dividendos atrativos na bolsa.",
+      "como_usar": "Veja na barra Bloomberg do topo do Terminal o valor do CDI Líquido do dia, calculado diretamente dos dados do Banco Central."
+    }
+  ]
+}
